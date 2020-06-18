@@ -58,7 +58,7 @@ class ContactForm extends Component {
           />
         </Label>
         <Label>
-          Number
+          Number*
           <Input
             type="text"
             name="number"

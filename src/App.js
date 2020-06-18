@@ -48,11 +48,6 @@ class App extends Component {
       alert(`Your name is not valid. Please enter correct information.`);
       return false;
     }
-
-    if (!number.match(/^\(?([0-9]{3})\)?[- ]?([0-9]{2})[- ]?([0-9]{2})$/)) {
-      alert(`Your number in not valid. Please enter correct information.`);
-      return false;
-    }
     return true;
   };
 
